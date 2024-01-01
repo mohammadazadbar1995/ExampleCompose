@@ -17,6 +17,9 @@ import ir.examplecompose.Slider.SliderMinimalExample
 import ir.examplecompose.bottomSheet.ModalBottomSheetExample
 import ir.examplecompose.dialog.DialogExamples
 import ir.examplecompose.indicators.LinearDeterminateIndicator
+import ir.examplecompose.list.LazyColumnExample
+import ir.examplecompose.list.LazyColumnExample2
+import ir.examplecompose.snackbar.SnackbarExample
 import ir.examplecompose.switch.SwitchMinimalExample
 import ir.examplecompose.ui.theme.ExampleComposeTheme
 
@@ -33,7 +36,7 @@ class MainActivity : ComponentActivity() {
                     Box(
                         modifier = Modifier.wrapContentSize(),
                     ) {
-                        ModalBottomSheetExample()
+                        LazyColumnExample2()
                     }
                 }
             }
